@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Stagem_PortoMegamenu>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Stagem_PortoMegamenu>
+    </modules>
+</config>

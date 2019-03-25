@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Stagem_PortoMegamenu>
+            <version>1.0.0</version>
+        </Stagem_PortoMegamenu>
+    </modules>
+
+    <global>
+        <blocks>
+            <stagem_megamenu>
+                <class>Stagem_PortoMegamenu_Block</class>
+            </stagem_megamenu>
+            <megamenu>
+                <rewrite>
+                    <navigation>Stagem_PortoMegamenu_Block_Navigation</navigation>
+                </rewrite>
+            </megamenu>
+        </blocks>
+
+        <helpers>
+            <megamenu>
+                <rewrite>
+                    <data>Stagem_PortoMegamenu_Helper_Data</data>
+                </rewrite>
+            </megamenu>
+        </helpers>
+    </global>
+</config>
