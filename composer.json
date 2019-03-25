@@ -1,0 +1,16 @@
+{
+  "name": "stagem/magento-porto-megamenu-php7-fix",
+  "type": "magento-module",
+  "license": "MIT",
+  "description": "Module allows to resolve problem with PortoMegamenu on PHP7",
+  "authors": [{
+      "name": "Serhii Popov",
+      "email": "popow.serhii@gmail.com"
+  }],
+  "extra": {
+    "map": [
+      ["app/etc/modules/Stagem_PortoMegamenu.xml", "app/etc/modules/Stagem_PortoMegamenu.xml"],
+      ["app/code/community/Stagem/PortoMegamenu/", "app/code/community/Stagem/PortoMegamenu/"]
+    ]
+  }
+}
